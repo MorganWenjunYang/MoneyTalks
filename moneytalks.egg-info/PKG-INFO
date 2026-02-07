@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: moneytalks
+Version: 0.1.0
+Summary: A quantitative backtesting and strategy execution system
+Requires-Python: >=3.9
+Requires-Dist: yfinance>=0.2.31
+Requires-Dist: pandas>=2.1.0
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: pyarrow>=14.0.0
+Requires-Dist: sqlalchemy>=2.0.0
+Requires-Dist: matplotlib>=3.8.0
+Requires-Dist: seaborn>=0.13.0
+Requires-Dist: apscheduler>=3.10.0
+Requires-Dist: loguru>=0.7.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.0; extra == "dev"
